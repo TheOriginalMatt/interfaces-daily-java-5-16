@@ -1,4 +1,4 @@
-public class MySimpleIntObject implements SimpleObj {
+public class MySimpleIntObject implements SimpleObj<Integer> {
 
 	public int myObj = 0;
 
@@ -6,7 +6,7 @@ public class MySimpleIntObject implements SimpleObj {
 		return String.valueOf(this.myObj);
 	}
 
-	public void setObj(Object obj) {
+	public void setObj(Integer obj) {
 		try {
 			this.myObj = (int)obj;
 		} catch (ClassCastException e) {
@@ -14,7 +14,7 @@ public class MySimpleIntObject implements SimpleObj {
 		}
 	}
 
-	public Object getObj() {
+	public Integer getObj() {
 		return this.myObj;
 	}
 

@@ -1,7 +1,7 @@
-public class MySimpleStrObject implements SimpleObj {
+public class MySimpleStrObject implements SimpleObj<String> {
 	private String myString;
 
-	public void setObj(Object str) {
+	public void setObj(String str) {
 		try {
 			this.myString = (String)str;
 		} catch (ClassCastException e) {
@@ -27,7 +27,7 @@ public class MySimpleStrObject implements SimpleObj {
 	}
 
 	public SimpleObj clone() {
-		MySimpleIntObject temp = new MySimpleIntObject();
+		MySimpleStrObject temp = new MySimpleStrObject();
 		temp.setObj(this.myString);
 
 		return temp;

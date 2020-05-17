@@ -9,9 +9,10 @@ A super simple Interface class
 I'm creating a small Java project each day to help me learn Java. These aren't rigorously tested, but instead exist just so I can get a better understanding of some portion of Java.
 
 ### Points of Interest
- + Java's class hierarcy is a lot more complex than I expected, this made designing the interface to be implemented for both `String` and `int` objects more difficult than expected
- + I wish there was a simpler way to override methods in interfaces. Currently if I want a method to accept an `int` in one implementation and a `String` in another, they have to both accept an `Object` and I have to manually throw an error if the user does anything illegal.
- + After looking at some of the interfaces created by Oracle, I think I've over estimated the power of the interface. While it can help direct any developers, each method added limits any implementation, so you can only specify the most bare bones requirements to keep from writing the class yourself
+ + ~~Java's class hierarcy is a lot more complex than I expected, this made designing the interface to be implemented for both `String` and `int` objects more difficult than expected~~
+ + ~~I wish there was a simpler way to override methods in interfaces. Currently if I want a method to accept an `int` in one implementation and a `String` in another, they have to both accept an `Object` and I have to manually throw an error if the user does anything illegal.~~
+ + ~~After looking at some of the interfaces created by Oracle, I think I've over estimated the power of the interface. While it can help direct any developers, each method added limits any implementation, so you can only specify the most bare bones requirements to keep from writing the class yourself~~
+ + After I pushed and went on to other Java code, I realized I should have used generic types, and went back and implemented those. After doing that, my implementations make WAY mroe sense
 
 ### Compiling
 

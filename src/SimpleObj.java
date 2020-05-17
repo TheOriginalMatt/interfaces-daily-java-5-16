@@ -1,4 +1,4 @@
-public interface SimpleObj {
+public interface SimpleObj<T> {
 
 
 	/**
@@ -31,12 +31,12 @@ public interface SimpleObj {
 	*@param obj polymorphic parameter for the object stored in the implementation
 	*
 	*/
-	public void setObj(Object obj);
+	public void setObj(T obj);
 
 	/**
 	* Getter function for the object stored in the implementation
 	*
 	*@return polymorphic return for the object stored in the implementation
 	*/
-	public Object getObj();
+	public T getObj();
 }

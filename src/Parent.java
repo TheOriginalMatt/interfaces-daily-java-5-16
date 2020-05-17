@@ -21,7 +21,8 @@ public class Parent {
 		System.out.println(intObj1.equals(strObj1));
 		System.out.println(strObj1.equals(intObj2));
 
-		intObj2.setObj("25");
+		// The following line will throw an error
+		// intObj2.setObj("25");
 
 		System.out.println(intObj1.equals(intObj2));
 	}

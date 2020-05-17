@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"MySimpleIntObject"},{"p":"<Unnamed>","l":"MySimpleStrObject"},{"p":"<Unnamed>","l":"Parent"},{"p":"<Unnamed>","l":"SimpleObj"}]
