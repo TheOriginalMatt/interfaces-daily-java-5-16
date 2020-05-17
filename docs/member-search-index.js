@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"SimpleObj","l":"clone()"},{"p":"<Unnamed>","c":"SimpleObj","l":"equals(SimpleObj)"},{"p":"<Unnamed>","c":"SimpleObj","l":"getObj()"},{"p":"<Unnamed>","c":"SimpleObj","l":"setObj(Object)","url":"setObj(java.lang.Object)"},{"p":"<Unnamed>","c":"SimpleObj","l":"toString()"}]
