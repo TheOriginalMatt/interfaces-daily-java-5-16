@@ -56,4 +56,4 @@ public class Parent {
 
 No more handwritten documentation for me!
 
-[SimpleString](https://github.com/TheOriginalMatt/interfaces-daily-java-5-16/SimpleObj.html)
+[SimpleObj](https://theoriginalmatt.github.io/interfaces-daily-java-5-16/SimpleObj.html)
